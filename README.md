@@ -2,8 +2,8 @@ EUCookieBar (module for Omeka S)
 ================================
 
 [EUCookieBar] is a module for [Omeka S] that adds a European Union warning about
-cookies and private life, if you use google analytics or facebook buttons to
-steal personal data of your visitors.
+cookies and private life, if you use Google analytics, Facebook buttons, or your
+own tools to steal personal data of your visitors.
 
 It provides the same feature than [plugin EUCookieBar] for [Omeka Classic] and
 use the [jQuery cookiebar widget] too.
@@ -33,7 +33,7 @@ Quick start
 
 Each site can enable the bar independantly. The message to display should be set
 in site settings. If no message is set, the cookie bar is not enabled on the
-site.
+site. Options can be set too as json. See the included library for more options.
 
 
 Warning

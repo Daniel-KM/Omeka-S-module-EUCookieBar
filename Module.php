@@ -42,7 +42,13 @@ class Module extends AbstractModule
             return;
         }
 
-        $js = 'var euCookieBarMessage = ' . json_encode($message, 320) . ';';
+        $options = $view->siteSetting('eucookiebar_options');
+        $options = json_decode($options, true) ?: [];
+        if ($options) {
+            $options['message'] = $message;
+        }
+
+        $js = 'var euCookieBarOptions = ' . json_encode($options, 320) . ';';
 
         $assetUrl = $view->plugin('assetUrl');
         $view->headLink()
