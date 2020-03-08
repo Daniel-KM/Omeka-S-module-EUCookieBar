@@ -1,0 +1,69 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Daniel Berthereau <Daniel.github@Berthereau.net>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-09 00:00+0100\n"
+"PO-Revision-Date: 2020-03-09 00:00+0100\n"
+"Last-Translator: Daniel Berthereau <Daniel.fr@Berthereau.net>\n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: src/Generic/AbstractModule.php:542
+#, php-format
+msgid "This module requires the module \"%s\"."
+msgstr "Ce module requiert le module \"%s\"."
+
+#: src/Generic/AbstractModule.php:562
+#, php-format
+msgid "This module requires modules \"%s\"."
+msgstr "Ce module requiert les modules \"%s\"."
+
+#: src/Generic/AbstractModule.php:630
+#, php-format
+msgid ""
+"The module \"%s\" was automatically deactivated because the dependencies are "
+"unavailable."
+msgstr ""
+"Le module %s\" a été automatiquement désactivé car ses dépendances ne sont "
+"plus disponibles."
+
+#: src/Form/SiteSettingsFieldset.php:10
+msgid "EU cookie bar"
+msgstr "EU cookie bar"
+
+#: src/Form/SiteSettingsFieldset.php:19
+msgid "Message to display"
+msgstr "Message à afficher"
+
+#: src/Form/SiteSettingsFieldset.php:23 config/module.config.php:22
+msgid ""
+"Warning: this site uses cookies or other means to steal your personal data "
+"and to allow Google or Facebook to fetch them. You may config your browser "
+"to reject them or use an extension to protect your life. See terms and "
+"conditions. By visiting this site, you accept them."
+msgstr ""
+"Attention : ce site utilise des cookies ou d’autres moyens pour voler vos "
+"données personnelles et pour autoriser Google ou Facebook à les récupérer. "
+"Vous pouvez configurer votre navigateur pour les rejeter ou utiliser une "
+"extension pour protéger votre vie. Merci de consulter les conditions "
+"d’utilisation du site. En visitant ce site, vous déclarez les accepter."
+
+#: src/Form/SiteSettingsFieldset.php:30
+msgid "Other options (json)"
+msgstr "Autres options (json)"
+
+#: src/Form/SiteSettingsFieldset.php:31
+msgid ""
+"See integrated library in asset/vendor/jquery.cookiebar for more options."
+msgstr ""
+"Consulter la bibliothèque intégrée dans asset/vendor/jquery.cookiebar pour "
+"d’autres options."
