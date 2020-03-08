@@ -96,6 +96,7 @@ Copyright
 
 [EUCookieBar]: https://github.com/Daniel-KM/Omeka-S-module-EUCookieBar
 [Omeka S]: https://omeka.org/s
+[Omeka Classic]: https://omeka.org/classic
 [jQuery cookiebar widget]: http://www.primebox.co.uk/projects/cookie-bar/
 [plugin EUCookieBar]: https://github.com/digihum/omeka-plugin-eucookiebar
 [`EUCookieBar.zip`]: https://github.com/Daniel-KM/Omeka-S-module-EUCookieBar/releases
