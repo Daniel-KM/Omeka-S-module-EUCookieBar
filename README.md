@@ -19,7 +19,7 @@ See general end user documentation for [installing a module].
 
 * From the zip
 
-Download the last release [`EUCookieBar.zip`] from the list of releases, and
+Download the last release [EUCookieBar.zip] from the list of releases, and
 uncompress it in the `modules` directory.
 
 * From the source and for development
@@ -99,7 +99,7 @@ Copyright
 [Omeka Classic]: https://omeka.org/classic
 [jQuery cookiebar widget]: http://www.primebox.co.uk/projects/cookie-bar/
 [plugin EUCookieBar]: https://github.com/digihum/omeka-plugin-eucookiebar
-[`EUCookieBar.zip`]: https://github.com/Daniel-KM/Omeka-S-module-EUCookieBar/releases
+[EUCookieBar.zip]: https://github.com/Daniel-KM/Omeka-S-module-EUCookieBar/releases
 [installing a module]: http://dev.omeka.org/docs/s/user-manual/modules/#installing-modules
 [jQuery]: https://jquery.org
 [module issues]: https://github.com/Daniel-KM/Omeka-S-module-EUCookieBar/issues
