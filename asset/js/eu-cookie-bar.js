@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // Check to avoid an issue when an anti-cookie is enable.
+    // Avoid an issue when an anti-cookie is enabled.
     if ($.isFunction($.fn.cookieBar)) {
         $.cookieBar(euCookieBarOptions);
     }
