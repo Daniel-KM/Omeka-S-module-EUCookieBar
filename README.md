@@ -51,7 +51,7 @@ your archives regularly so you can roll back if needed.
 Troubleshooting
 ---------------
 
-See online issues on the [module issues] page on GitHub.
+See online issues on the [module issues] page on GitLab.
 
 
 License
@@ -94,22 +94,22 @@ Copyright
 ---------
 
 * Copyright 2012 PrimeBox (info@primebox.co.uk) (for the library)
-* Copyright Daniel Berthereau, 2020 (see [Daniel-KM] on GitHub)
+* Copyright Daniel Berthereau, 2020 (see [Daniel-KM] on GitLab)
 
 
-[EUCookieBar]: https://github.com/Daniel-KM/Omeka-S-module-EUCookieBar
+[EUCookieBar]: https://gitlab.com/Daniel-KM/Omeka-S-module-EUCookieBar
 [Omeka S]: https://omeka.org/s
 [Omeka Classic]: https://omeka.org/classic
 [jQuery cookiebar widget]: http://www.primebox.co.uk/projects/cookie-bar/
 [plugin EUCookieBar]: https://github.com/digihum/omeka-plugin-eucookiebar
-[EUCookieBar.zip]: https://github.com/Daniel-KM/Omeka-S-module-EUCookieBar/releases
+[EUCookieBar.zip]: https://gitlab.com/Daniel-KM/Omeka-S-module-EUCookieBar/-/releases
 [installing a module]: http://dev.omeka.org/docs/s/user-manual/modules/#installing-modules
 [jQuery]: https://jquery.org
-[module issues]: https://github.com/Daniel-KM/Omeka-S-module-EUCookieBar/issues
+[module issues]: https://gitlab.com/Daniel-KM/Omeka-S-module-EUCookieBar/-/issues
 [CeCILL v2.1]: https://www.cecill.info/licences/Licence_CeCILL_V2.1-en.html
 [GNU/GPL]: https://www.gnu.org/licenses/gpl-3.0.html
 [FSF]: https://www.fsf.org
 [OSI]: http://opensource.org
 [Creative Commons Attribution 3.0 Unported License]: http://creativecommons.org/licenses/by/3.0/
 [GitLab]: https://gitlab.com/Daniel-KM
-[Daniel-KM]: https://github.com/Daniel-KM "Daniel Berthereau"
+[Daniel-KM]: https://gitlab.com/Daniel-KM "Daniel Berthereau"
