@@ -1,6 +1,9 @@
 EUCookieBar (module for Omeka S)
 ================================
 
+> __New versions of this module and support for Omeka S version 3.0 and above
+> are available on [GitLab], which seems to respect users and privacy better.__
+
 [EUCookieBar] is a module for [Omeka S] that adds a European Union warning about
 cookies and private life, if you use Google analytics, Facebook buttons, or your
 own tools to steal personal data of your visitors.
@@ -56,7 +59,7 @@ License
 
 ### Module
 
-This module is published under the [CeCILL v2.1] licence, compatible with
+This module is published under the [CeCILL v2.1] license, compatible with
 [GNU/GPL] and approved by [FSF] and [OSI].
 
 This software is governed by the CeCILL license under French law and abiding by
@@ -108,4 +111,5 @@ Copyright
 [FSF]: https://www.fsf.org
 [OSI]: http://opensource.org
 [Creative Commons Attribution 3.0 Unported License]: http://creativecommons.org/licenses/by/3.0/
+[GitLab]: https://gitlab.com/Daniel-KM
 [Daniel-KM]: https://github.com/Daniel-KM "Daniel Berthereau"
