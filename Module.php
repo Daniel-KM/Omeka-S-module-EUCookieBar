@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace EUCookieBar;
 
@@ -16,7 +16,7 @@ class Module extends AbstractModule
 {
     const NAMESPACE = __NAMESPACE__;
 
-    public function attachListeners(SharedEventManagerInterface $sharedEventManager)
+    public function attachListeners(SharedEventManagerInterface $sharedEventManager): void
     {
         $sharedEventManager->attach(
             '*',
@@ -30,7 +30,7 @@ class Module extends AbstractModule
         );
     }
 
-    public function handleViewLayout(Event $event)
+    public function handleViewLayout(Event $event): void
     {
         $view = $event->getTarget();
         if (!$view->status()->isSiteRequest()) {

@@ -1,15 +1,15 @@
-<?php
+<?php declare(strict_types=1);
 namespace EUCookieBar\Form;
 
-use Omeka\Form\Element\CkeditorInline;
 use Laminas\Form\Element;
 use Laminas\Form\Fieldset;
+use Omeka\Form\Element\CkeditorInline;
 
 class SiteSettingsFieldset extends Fieldset
 {
     protected $label = 'EU cookie bar'; // @translate
 
-    public function init()
+    public function init(): void
     {
         $this
             ->add([
