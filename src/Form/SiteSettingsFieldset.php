@@ -28,7 +28,8 @@ class SiteSettingsFieldset extends Fieldset
                 'type' => Element\Textarea::class,
                 'options' => [
                     'label' => 'Other options (json)', // @translate
-                    'info' => 'See integrated library in asset/vendor/jquery.cookiebar for more options.', // @translate
+                    'info' => 'Click below for more options about the integrated library.', // @translate
+                    'documentation' => 'https://gitlab.com/Daniel-KM/Omeka-S-module-EUCookieBar/~/blob/master/asset/vendor/jquery.cookiebar/jquery.cookiebar.js#L26-L50',
                 ],
                 'attributes' => [
                     'id' => 'eucookiebar_options',

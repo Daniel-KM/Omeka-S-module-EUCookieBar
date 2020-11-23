@@ -99,7 +99,7 @@ This module is inspired by the [plugin EUCookieBar] for [Omeka Classic].
 [EU Cookie Bar]: https://gitlab.com/Daniel-KM/Omeka-S-module-EUCookieBar
 [Omeka S]: https://omeka.org/s
 [Omeka Classic]: https://omeka.org/classic
-[jQuery cookiebar widget]: http://www.primebox.co.uk/projects/cookie-bar/
+[jQuery cookiebar widget]: https://www.primebox.co.uk/projects/jquery-cookiebar/
 [plugin EUCookieBar]: https://github.com/digihum/omeka-plugin-eucookiebar
 [EUCookieBar.zip]: https://gitlab.com/Daniel-KM/Omeka-S-module-EUCookieBar/-/releases
 [installing a module]: http://dev.omeka.org/docs/s/user-manual/modules/#installing-modules
