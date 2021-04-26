@@ -2,7 +2,8 @@ EU Cookie Bar (module for Omeka S)
 ==================================
 
 > __New versions of this module and support for Omeka S version 3.0 and above
-> are available on [GitLab], which seems to respect users and privacy better.__
+> are available on [GitLab], which seems to respect users and privacy better
+> than the previous repository.__
 
 [EU Cookie Bar] is a module for [Omeka S] that adds a European Union warning
 about cookies and private life, if you use Google analytics, Facebook buttons,
