@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-09 00:00+0100\n"
-"PO-Revision-Date: 2020-03-09 00:00+0100\n"
+"POT-Creation-Date: 2021-04-26 00:00+0000\n"
+"PO-Revision-Date: 2021-04-26 00:00+0000\n"
 "Last-Translator: Daniel Berthereau <Daniel.fr@Berthereau.net>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
@@ -15,19 +15,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4.2\n"
 
-#: src/Generic/AbstractModule.php:542
+#: src/Generic/AbstractModule.php:66
 #, php-format
 msgid "This module requires the module \"%s\"."
 msgstr "Ce module requiert le module \"%s\"."
 
-#: src/Generic/AbstractModule.php:562
+#: src/Generic/AbstractModule.php:73
 #, php-format
 msgid "This module requires modules \"%s\"."
 msgstr "Ce module requiert les modules \"%s\"."
 
-#: src/Generic/AbstractModule.php:630
+#: src/Generic/AbstractModule.php:80
+msgid "This module has resources that cannot be installed."
+msgstr "Ce module a des ressource qui ne peuvent pas être installées."
+
+#: src/Generic/AbstractModule.php:707
 #, php-format
 msgid ""
 "The module \"%s\" was automatically deactivated because the dependencies are "
@@ -62,8 +66,12 @@ msgid "Other options (json)"
 msgstr "Autres options (json)"
 
 #: src/Form/SiteSettingsFieldset.php:31
-msgid ""
-"See integrated library in asset/vendor/jquery.cookiebar for more options."
+msgid "Click below for more options about the integrated library."
 msgstr ""
-"Consulter la bibliothèque intégrée dans asset/vendor/jquery.cookiebar pour "
-"d’autres options."
+"Cliquer ci-dessous pour plus d’options pour intégrer la bibliothèque js."
+
+#~ msgid ""
+#~ "See integrated library in asset/vendor/jquery.cookiebar for more options."
+#~ msgstr ""
+#~ "Consulter la bibliothèque intégrée dans asset/vendor/jquery.cookiebar "
+#~ "pour d’autres options."
