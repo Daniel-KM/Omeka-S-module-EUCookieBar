@@ -12,6 +12,7 @@ class SiteSettingsFieldset extends Fieldset
     public function init(): void
     {
         $this
+            ->setAttribute('id', 'eu-cookie-bar')
             ->add([
                 'name' => 'eucookiebar_message',
                 'type' => CkeditorInline::class,
