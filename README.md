@@ -7,7 +7,9 @@ EU Cookie Bar (module for Omeka S)
 
 [EU Cookie Bar] is a module for [Omeka S] that adds a European Union warning
 about cookies and private life, if you use Google analytics, Facebook buttons,
-or your own tools to steal personal data of your visitors. It uses the [jQuery cookiebar widget].
+or your own hacker tools to steal personal data of your visitors.
+
+It uses the [jQuery cookiebar widget].
 
 
 Installation
@@ -92,7 +94,7 @@ Copyright
 ---------
 
 * Copyright 2012 PrimeBox (info@primebox.co.uk) (for the library)
-* Copyright Daniel Berthereau, 2020 (see [Daniel-KM] on GitLab)
+* Copyright Daniel Berthereau, 2020-2022 (see [Daniel-KM] on GitLab)
 
 This module is inspired by the [plugin EUCookieBar] for [Omeka Classic].
 
