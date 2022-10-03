@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-26 00:00+0000\n"
-"PO-Revision-Date: 2021-04-26 00:00+0000\n"
+"POT-Creation-Date: 2022-10-03 00:00+0000\n"
+"PO-Revision-Date: 2022-10-03 00:00+0000\n"
 "Last-Translator: Daniel Berthereau <Daniel.fr@Berthereau.net>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
@@ -15,23 +15,42 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.1.1\n"
 
-#: src/Generic/AbstractModule.php:66
+#: src/Generic/AbstractModule.php:80 src/Generic/AbstractModule.php:774
 #, php-format
 msgid "This module requires the module \"%s\"."
 msgstr "Ce module requiert le module \"%s\"."
 
-#: src/Generic/AbstractModule.php:73
+#: src/Generic/AbstractModule.php:87
 #, php-format
 msgid "This module requires modules \"%s\"."
 msgstr "Ce module requiert les modules \"%s\"."
 
-#: src/Generic/AbstractModule.php:80
+#: src/Generic/AbstractModule.php:94
 msgid "This module has resources that cannot be installed."
 msgstr "Ce module a des ressource qui ne peuvent pas être installées."
 
-#: src/Generic/AbstractModule.php:707
+#: src/Generic/AbstractModule.php:101
+msgid ""
+"This module cannot install its tables, because they exist already. Try to "
+"remove them first."
+msgstr ""
+"Ce module ne peut pas installer ses tables car elles existent déjà. Essayez "
+"de les supprimer manuellement."
+
+#: src/Generic/AbstractModule.php:362
+#, php-format
+msgid "The module removed tables \"%s\" from a previous broken install."
+msgstr ""
+"Le module a supprimé les tables « %s » depuis une installation échouée."
+
+#: src/Generic/AbstractModule.php:769
+#, php-format
+msgid "This module requires the module \"%1$s\", version %2$s or above."
+msgstr "Ce module requiert le module « %1$s », version %2$s ou supérieure."
+
+#: src/Generic/AbstractModule.php:866
 #, php-format
 msgid ""
 "The module \"%s\" was automatically deactivated because the dependencies are "
@@ -44,11 +63,11 @@ msgstr ""
 msgid "EU cookie bar"
 msgstr "EU cookie bar"
 
-#: src/Form/SiteSettingsFieldset.php:19
+#: src/Form/SiteSettingsFieldset.php:20
 msgid "Message to display"
 msgstr "Message à afficher"
 
-#: src/Form/SiteSettingsFieldset.php:23 config/module.config.php:22
+#: src/Form/SiteSettingsFieldset.php:24
 msgid ""
 "Warning: this site uses cookies or other means to steal your personal data "
 "and to allow Google or Facebook to fetch them. You may config your browser "
@@ -61,14 +80,27 @@ msgstr ""
 "extension pour protéger votre vie. Merci de consulter les conditions "
 "d’utilisation du site. En visitant ce site, vous déclarez les accepter."
 
-#: src/Form/SiteSettingsFieldset.php:30
+#: src/Form/SiteSettingsFieldset.php:31
 msgid "Other options (json)"
 msgstr "Autres options (json)"
 
-#: src/Form/SiteSettingsFieldset.php:31
+#: src/Form/SiteSettingsFieldset.php:32
 msgid "Click below for more options about the integrated library."
 msgstr ""
 "Cliquer ci-dessous pour plus d’options pour intégrer la bibliothèque js."
+
+#: config/module.config.php:22
+msgid ""
+"Warning: this site uses cookies or other means to steal your personal data "
+"and to allow Google or Facebook to hack them. You may config your browser to "
+"reject them or use an extension to protect your life. See terms and "
+"conditions. By visiting this site, you accept them."
+msgstr ""
+"Attention : ce site utilise des cookies ou d’autres moyens pour voler vos "
+"données personnelles et pour autoriser Google ou Facebook à les pirater. "
+"Vous pouvez configurer votre navigateur pour les rejeter ou utiliser une "
+"extension pour protéger votre vie. Merci de consulter les conditions "
+"d’utilisation du site. En visitant ce site, vous déclarez les accepter."
 
 #~ msgid ""
 #~ "See integrated library in asset/vendor/jquery.cookiebar for more options."
