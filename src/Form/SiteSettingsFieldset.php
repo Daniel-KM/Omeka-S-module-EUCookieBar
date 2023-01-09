@@ -1,22 +1,29 @@
 <?php declare(strict_types=1);
+
 namespace EUCookieBar\Form;
 
 use Laminas\Form\Element;
 use Laminas\Form\Fieldset;
-use Omeka\Form\Element\CkeditorInline;
+use Omeka\Form\Element as OmekaElement;
 
 class SiteSettingsFieldset extends Fieldset
 {
     protected $label = 'EU cookie bar'; // @translate
 
+    protected $elementGroups = [
+        'privacy' => 'Privacy', // @translate
+    ];
+
     public function init(): void
     {
         $this
             ->setAttribute('id', 'eu-cookie-bar')
+            ->setOption('element_groups', $this->elementGroups)
             ->add([
                 'name' => 'eucookiebar_message',
-                'type' => CkeditorInline::class,
+                'type' => OmekaElement\CkeditorInline::class,
                 'options' => [
+                    'element_group' => 'selection',
                     'label' => 'Message to display', // @translate
                 ],
                 'attributes' => [
@@ -28,6 +35,7 @@ class SiteSettingsFieldset extends Fieldset
                 'name' => 'eucookiebar_options',
                 'type' => Element\Textarea::class,
                 'options' => [
+                    'element_group' => 'selection',
                     'label' => 'Other options (json)', // @translate
                     'info' => 'Click below for more options about the integrated library.', // @translate
                     'documentation' => 'https://gitlab.com/Daniel-KM/Omeka-S-module-EUCookieBar/~/blob/master/asset/vendor/jquery.cookiebar/jquery.cookiebar.js#L26-L50',
