@@ -16,9 +16,12 @@ Installation
 ------------
 
 This module requires the library [eucookiebar], that is currently provided with
-the module. It requires the library [jQuery] in the theme, generally enabled by default.
+the module. It requires the library [jQuery] in the theme, generally enabled by
+default.
 
 See general end user documentation for [installing a module].
+
+This module requires the module [Common], that should be installed first.
 
 * From the zip
 
@@ -94,7 +97,7 @@ Copyright
 ---------
 
 * Copyright 2012 PrimeBox (info@primebox.co.uk) (for the library)
-* Copyright Daniel Berthereau, 2020-2023 (see [Daniel-KM] on GitLab)
+* Copyright Daniel Berthereau, 2020-2024 (see [Daniel-KM] on GitLab)
 
 This module is inspired by the [plugin EUCookieBar] for [Omeka Classic].
 
@@ -105,8 +108,9 @@ This module is inspired by the [plugin EUCookieBar] for [Omeka Classic].
 [jQuery cookiebar widget]: https://www.primebox.co.uk/projects/jquery-cookiebar/
 [plugin EUCookieBar]: https://github.com/digihum/omeka-plugin-eucookiebar
 [EUCookieBar.zip]: https://gitlab.com/Daniel-KM/Omeka-S-module-EUCookieBar/-/releases
-[Installing a module]: https://omeka.org/s/docs/user-manual/modules/#installing-modules
+[installing a module]: https://omeka.org/s/docs/user-manual/modules/#installing-modules
 [jQuery]: https://jquery.org
+[Common]: https://gitlab.com/Daniel-KM/Omeka-S-module-Common
 [module issues]: https://gitlab.com/Daniel-KM/Omeka-S-module-EUCookieBar/-/issues
 [CeCILL v2.1]: https://www.cecill.info/licences/Licence_CeCILL_V2.1-en.html
 [GNU/GPL]: https://www.gnu.org/licenses/gpl-3.0.html
