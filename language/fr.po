@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-03 00:00+0000\n"
-"PO-Revision-Date: 2022-10-03 00:00+0000\n"
+"POT-Creation-Date: 2024-10-07 00:00+0000\n"
+"PO-Revision-Date: 2024-10-07 00:00+0000\n"
 "Last-Translator: Daniel Berthereau <Daniel.fr@Berthereau.net>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
@@ -15,59 +15,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 
-#: src/Generic/AbstractModule.php:80 src/Generic/AbstractModule.php:774
+#: Module.php:34
 #, php-format
-msgid "This module requires the module \"%s\"."
-msgstr "Ce module requiert le module \"%s\"."
+msgid "The module %1$s should be upgraded to version %2$s or later."
+msgstr "Le module %1$s doit être mis à niveau à la version %2$s ou supérieure."
 
-#: src/Generic/AbstractModule.php:87
-#, php-format
-msgid "This module requires modules \"%s\"."
-msgstr "Ce module requiert les modules \"%s\"."
-
-#: src/Generic/AbstractModule.php:94
-msgid "This module has resources that cannot be installed."
-msgstr "Ce module a des ressource qui ne peuvent pas être installées."
-
-#: src/Generic/AbstractModule.php:101
-msgid ""
-"This module cannot install its tables, because they exist already. Try to "
-"remove them first."
-msgstr ""
-"Ce module ne peut pas installer ses tables car elles existent déjà. Essayez "
-"de les supprimer manuellement."
-
-#: src/Generic/AbstractModule.php:362
-#, php-format
-msgid "The module removed tables \"%s\" from a previous broken install."
-msgstr ""
-"Le module a supprimé les tables « %s » depuis une installation échouée."
-
-#: src/Generic/AbstractModule.php:769
-#, php-format
-msgid "This module requires the module \"%1$s\", version %2$s or above."
-msgstr "Ce module requiert le module « %1$s », version %2$s ou supérieure."
-
-#: src/Generic/AbstractModule.php:866
-#, php-format
-msgid ""
-"The module \"%s\" was automatically deactivated because the dependencies are "
-"unavailable."
-msgstr ""
-"Le module \"%s\" a été automatiquement désactivé car ses dépendances ne sont "
-"plus disponibles."
-
-#: src/Form/SiteSettingsFieldset.php:10
+#: src/Form/SiteSettingsFieldset.php:11
 msgid "EU cookie bar"
 msgstr "EU cookie bar"
 
-#: src/Form/SiteSettingsFieldset.php:20
-msgid "Message to display"
-msgstr "Message à afficher"
+#: src/Form/SiteSettingsFieldset.php:14
+msgid "Privacy"
+msgstr "Vie privée"
 
-#: src/Form/SiteSettingsFieldset.php:24
+#: src/Form/SiteSettingsFieldset.php:27
+msgid "Message to display for EU cookie bar"
+msgstr "Message à afficher pour la barre de cookie UE"
+
+#: src/Form/SiteSettingsFieldset.php:31
 msgid ""
 "Warning: this site uses cookies or other means to steal your personal data "
 "and to allow Google or Facebook to fetch them. You may config your browser "
@@ -80,11 +47,11 @@ msgstr ""
 "extension pour protéger votre vie. Merci de consulter les conditions "
 "d’utilisation du site. En visitant ce site, vous déclarez les accepter."
 
-#: src/Form/SiteSettingsFieldset.php:31
+#: src/Form/SiteSettingsFieldset.php:39
 msgid "Other options (json)"
 msgstr "Autres options (json)"
 
-#: src/Form/SiteSettingsFieldset.php:32
+#: src/Form/SiteSettingsFieldset.php:40
 msgid "Click below for more options about the integrated library."
 msgstr ""
 "Cliquer ci-dessous pour plus d’options pour intégrer la bibliothèque js."
@@ -101,6 +68,37 @@ msgstr ""
 "Vous pouvez configurer votre navigateur pour les rejeter ou utiliser une "
 "extension pour protéger votre vie. Merci de consulter les conditions "
 "d’utilisation du site. En visitant ce site, vous déclarez les accepter."
+
+#, php-format
+#~ msgid "This module requires the module \"%s\"."
+#~ msgstr "Ce module requiert le module \"%s\"."
+
+#, php-format
+#~ msgid "This module requires modules \"%s\"."
+#~ msgstr "Ce module requiert les modules \"%s\"."
+
+#~ msgid "This module has resources that cannot be installed."
+#~ msgstr "Ce module a des ressource qui ne peuvent pas être installées."
+
+#~ msgid ""
+#~ "This module cannot install its tables, because they exist already. Try to "
+#~ "remove them first."
+#~ msgstr ""
+#~ "Ce module ne peut pas installer ses tables car elles existent déjà. "
+#~ "Essayez de les supprimer manuellement."
+
+#, php-format
+#~ msgid "The module removed tables \"%s\" from a previous broken install."
+#~ msgstr ""
+#~ "Le module a supprimé les tables « %s » depuis une installation échouée."
+
+#, php-format
+#~ msgid ""
+#~ "The module \"%s\" was automatically deactivated because the dependencies "
+#~ "are unavailable."
+#~ msgstr ""
+#~ "Le module \"%s\" a été automatiquement désactivé car ses dépendances ne "
+#~ "sont plus disponibles."
 
 #~ msgid ""
 #~ "See integrated library in asset/vendor/jquery.cookiebar for more options."

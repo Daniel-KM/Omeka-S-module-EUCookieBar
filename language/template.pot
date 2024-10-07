@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-03 00:00+0000\n"
+"POT-Creation-Date: 2024-10-07 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,52 +17,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/Generic/AbstractModule.php:80 src/Generic/AbstractModule.php:774
+#: Module.php:34
 #, php-format
-msgid "This module requires the module \"%s\"."
+msgid "The module %1$s should be upgraded to version %2$s or later."
 msgstr ""
 
-#: src/Generic/AbstractModule.php:87
-#, php-format
-msgid "This module requires modules \"%s\"."
-msgstr ""
-
-#: src/Generic/AbstractModule.php:94
-msgid "This module has resources that cannot be installed."
-msgstr ""
-
-#: src/Generic/AbstractModule.php:101
-msgid ""
-"This module cannot install its tables, because they exist already. Try to "
-"remove them first."
-msgstr ""
-
-#: src/Generic/AbstractModule.php:362
-#, php-format
-msgid "The module removed tables \"%s\" from a previous broken install."
-msgstr ""
-
-#: src/Generic/AbstractModule.php:769
-#, php-format
-msgid "This module requires the module \"%1$s\", version %2$s or above."
-msgstr ""
-
-#: src/Generic/AbstractModule.php:866
-#, php-format
-msgid ""
-"The module \"%s\" was automatically deactivated because the dependencies are "
-"unavailable."
-msgstr ""
-
-#: src/Form/SiteSettingsFieldset.php:10
+#: src/Form/SiteSettingsFieldset.php:11
 msgid "EU cookie bar"
 msgstr ""
 
-#: src/Form/SiteSettingsFieldset.php:20
-msgid "Message to display"
+#: src/Form/SiteSettingsFieldset.php:14
+msgid "Privacy"
 msgstr ""
 
-#: src/Form/SiteSettingsFieldset.php:24
+#: src/Form/SiteSettingsFieldset.php:27
+msgid "Message to display for EU cookie bar"
+msgstr ""
+
+#: src/Form/SiteSettingsFieldset.php:31
 msgid ""
 "Warning: this site uses cookies or other means to steal your personal data "
 "and to allow Google or Facebook to fetch them. You may config your browser "
@@ -70,11 +42,11 @@ msgid ""
 "conditions. By visiting this site, you accept them."
 msgstr ""
 
-#: src/Form/SiteSettingsFieldset.php:31
+#: src/Form/SiteSettingsFieldset.php:39
 msgid "Other options (json)"
 msgstr ""
 
-#: src/Form/SiteSettingsFieldset.php:32
+#: src/Form/SiteSettingsFieldset.php:40
 msgid "Click below for more options about the integrated library."
 msgstr ""
 
