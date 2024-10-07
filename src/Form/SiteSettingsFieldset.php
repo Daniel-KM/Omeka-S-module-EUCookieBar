@@ -23,8 +23,8 @@ class SiteSettingsFieldset extends Fieldset
                 'name' => 'eucookiebar_message',
                 'type' => OmekaElement\CkeditorInline::class,
                 'options' => [
-                    'element_group' => 'selection',
-                    'label' => 'Message to display', // @translate
+                    'element_group' => 'privacy',
+                    'label' => 'Message to display for EU cookie bar', // @translate
                 ],
                 'attributes' => [
                     'id' => 'eucookiebar_message',
@@ -35,7 +35,7 @@ class SiteSettingsFieldset extends Fieldset
                 'name' => 'eucookiebar_options',
                 'type' => Element\Textarea::class,
                 'options' => [
-                    'element_group' => 'selection',
+                    'element_group' => 'privacy',
                     'label' => 'Other options (json)', // @translate
                     'info' => 'Click below for more options about the integrated library.', // @translate
                     'documentation' => 'https://gitlab.com/Daniel-KM/Omeka-S-module-EUCookieBar/~/blob/master/asset/vendor/jquery.cookiebar/jquery.cookiebar.js#L26-L50',
